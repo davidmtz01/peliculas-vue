@@ -1,2 +1,7 @@
+<template>
+  <!-- Bloque de plantilla vacío -->
+</template>
 
-<templade></templade>
+<script>
+// Bloque de script vacío
+</script>
