@@ -7,7 +7,6 @@ import 'datatables.net-dt/css/jquery.dataTables.css';
 import ButtonsHtml5 from 'datatables.net-buttons/js/buttons.html5';
 import 'datatables.net-buttons/js/buttons.print';
 import 'datatables.net-responsive-dt';
-import 'datatables.net-responsive-dt/css/responsive.dataTables.min.css';
 import JsZip from 'jszip';
 import pdfmake from "pdfmake/build/pdfmake";
 import * as pdfFonts from "pdfmake/build/vfs_fonts";
