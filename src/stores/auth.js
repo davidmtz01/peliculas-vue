@@ -11,7 +11,7 @@ export const useAuthStore = defineStore('auth', {
   actions: {
     async login(form) {
       try {
-        const res = await axios.post('https://peliculas-897i.onrender.com/api/login', {
+        const res = await axios.post('https://peliculas-qeag.onrender.com/api/login', {
           correo: form.email,
           password: form.password
         });
@@ -33,7 +33,7 @@ export const useAuthStore = defineStore('auth', {
     },
     async register(form) {
       try {
-        const res = await axios.post('https://peliculas-897i.onrender.com/api/usuarios', {
+        const res = await axios.post('https://peliculas-qeag.onrender.com/api/usuarios', {
           nombre: form.name,
           correo: form.email,
           password: form.password
@@ -55,7 +55,7 @@ export const useAuthStore = defineStore('auth', {
     },
     async logout() {
       try {
-        await axios.get('https://peliculas-897i.onrender.com/api/logout', {
+        await axios.get('https://peliculas-qeag.onrender.com/api/logout', {
           headers: { Authorization: `Bearer ${this.authToken}` }
         });
       } catch (error) {
