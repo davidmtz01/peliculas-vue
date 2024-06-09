@@ -72,7 +72,7 @@ const form = ref({
 
 const nameInput = ref(null);
 const id = ref(route.params.id);
-const BASE_URL = 'https://peliculas-897i.onrender.com';
+const BASE_URL = 'https://peliculas-qeag.onrender.com';
 
 const getPelicula = async () => {
   try {
