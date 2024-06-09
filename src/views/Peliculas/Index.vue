@@ -9,7 +9,7 @@ axios.defaults.headers.common['Authorization'] = 'Bearer ' + authStore.authToken
 
 const peliculas = ref([]);
 const load = ref(false);
-const BASE_URL = 'https://peliculas-897i.onrender.com';
+const BASE_URL = 'https://peliculas-qeag.onrender.com';
 
 const getPeliculas = async () => {
     try {
