@@ -59,7 +59,7 @@ const router = useRouter();
 
 const getPeliculas = async () => {
     try {
-        const response = await axios.get('https://peliculas-897i.onrender.com/api/pelicula');
+        const response = await axios.get('https://peliculas-qeag.onrender.com/api/pelicula');
         peliculas.value = response.data.data;
     } catch (error) {
         console.error('Error fetching peliculas:', error);
@@ -99,7 +99,7 @@ const save = async () => {
     }
 
     try {
-        const response = await axios.post('https://peliculas-897i.onrender.com/api/pelicula', formData, {
+        const response = await axios.post('https://peliculas-qeag.onrender.com/api/pelicula', formData, {
             headers: {
                 'Content-Type': 'multipart/form-data'
             }
