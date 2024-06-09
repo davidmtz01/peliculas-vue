@@ -10,7 +10,7 @@ export default defineConfig({
     vueJsx(),
   ],
   server: {
-    port: process.env.PORT || 5173,
+    parseInt(process.env.PORT) || 5173
   },
   resolve: {
     alias: {
