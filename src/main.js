@@ -12,7 +12,7 @@ import { markRaw } from 'vue';
 
 window.axios = axios;
 
-window.axios.defaults.baseURL = 'https://peliculas-897i.onrender.com';
+window.axios.defaults.baseURL = 'https://peliculas-qeag.onrender.com';
 window.axios.defaults.headers.common['Accept'] = 'application/json';
 window.axios.defaults.headers.common['Content-Type'] = 'application/json';
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
